@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username   = "root";
-$password   = "Nishant@12345";
-$db_name    = "NicheInterviewDB";
+$servername = "sql12.freesqldatabase.com";
+$username   = "sql12737689";
+$password   = "JNerPPcC6U";
+$db_name    = "sql12737689";
 $port       = 3306;  
 
 
