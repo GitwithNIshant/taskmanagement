@@ -1,0 +1,59 @@
+/* Styling the Task List */
+.task-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    max-width: 600px; /* Limit the width of the list */
+    margin: 20px auto;
+    border: 1px solid #ccc; /* Border around the whole list */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between; /* Align task details and actions */
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd; /* Border between tasks */
+    align-items: center;
+}
+
+.task-item:last-child {
+    border-bottom: none; /* Remove border for the last task */
+}
+
+.task-details {
+    font-size: 16px;
+}
+
+.task-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.task-status {
+    color: #666;
+    margin-left: 10px;
+}
+
+.task-actions a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.task-actions a:hover {
+    text-decoration: underline;
+}
+
+.task-edit {
+    color: green;
+}
+
+.task-delete {
+    color: red;
+}
+
+/* Optional: Additional hover effects */
+.task-item:hover {
+    background-color: #f1f1f1;
+}
